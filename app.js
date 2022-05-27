@@ -109,12 +109,6 @@ function client() {
 
   bot.on("end", (reason) => {
     console.log(`Client exited with: ${reason}, attempting reconnection`)
-    bot._client.end()
-    const bot = new Bot({
-        host: settings.IP,
-        port: settings.Port,
-        username: settings.username,
-      });
   });
 }
 
