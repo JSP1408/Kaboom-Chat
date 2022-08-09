@@ -1,2 +1,2 @@
-# Kaboom-Chat
-A chat script for the minecraft server kaboom.pw
+# kaboomchat
+A chat script for kaboom.pw and other clones, such as Kitsune and Ayunboom.
