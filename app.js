@@ -56,7 +56,7 @@ function client() {
 
     console.log(`Successfuly logged into ${settings.IP}:${settings.Port}!`);
     bot.core.run(
-      `/tellraw @a "§8[§b${settings.username}§9 logged in using EChat! A minecraft console client!§8]§r"`
+      `/bcraw &8[&b${settings.username}&8]&9 logged in using &ckaboomchat&9! A free-op anarchy console client!&r"`
     );
 
     const cli = readline.createInterface({
