@@ -4,7 +4,7 @@ const fs = require("fs");
 const Bot = require("./bot_handler");
 const reload = require("require-reload");
 
-const prefix = ".";
+const prefix = "'";
 
 const options = readline.createInterface({
   input: process.stdin,
