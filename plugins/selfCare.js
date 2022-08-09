@@ -4,7 +4,7 @@ function inject (bot) {
 
     if (packet.entityStatus === 24) {
       setTimeout(() => {
-        bot._client.write('chat', { message: '/op @p' })
+        bot._client.write('chat', { message: '/op @s[type=player]' })
       }, 200)
     }
   })
